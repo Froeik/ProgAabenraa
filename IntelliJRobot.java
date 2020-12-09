@@ -7,7 +7,9 @@ public class   IntelliJRobot extends JuniorRobot {
         setColors(green, black, blue);
 
         while (true) {
-            ahead(1);
+            ahead(100);
+            turnLeft(90);
+            ahead(320);
         }
     }
 
